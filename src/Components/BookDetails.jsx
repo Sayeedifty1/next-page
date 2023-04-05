@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLoaderData, useNavigation } from 'react-router-dom';
-// import LoadingSpinner from './LoadingSpinner'
+import LoadingSpinner from './LoadingSpinner'
 
 const BookDetails = () => {
     const navigation = useNavigation()

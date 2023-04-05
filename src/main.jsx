@@ -5,13 +5,16 @@ import App from './App'
 import About from './Components/About'
 import BookDetails from './Components/BookDetails'
 import Books from './Components/Books'
+import ErrorPage from './Components/ErrorPage'
 import Home from './Components/Home'
 import './index.css'
 
 const router = createBrowserRouter([
+  
   {
     path: '/',
     element: <App></App>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
